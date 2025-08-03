@@ -58,6 +58,6 @@
 
 | Purpose                        | Command                                                                 |
 |----------------------------------|--------------------------------------------------------------------------|
-| Check Object Metadata  | `aws s3api head-object --bucket <bucket-name--key <key>`
+| Check Object Metadata  | `aws s3api head-object --bucket <bucket-name --key <key>`
 
 ---
