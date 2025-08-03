@@ -22,6 +22,7 @@
 | Download a file                 | `aws s3 cp s3://<bucket-name>/<key> <local-path>`                        |
 | Copy object between buckets     | `aws s3 cp s3://<source-bucket>/<key> s3://<dest-bucket>/<key>`          |
 | Delete an object                | `aws s3 rm s3://<bucket-name>/<key>`                                     |
+| Delete all object in a bucket   | `aws s3 rm s3://<bucket-name> --recursive`                               |
 
 ---
 
